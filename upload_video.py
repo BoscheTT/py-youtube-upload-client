@@ -66,7 +66,7 @@ if __name__ == "__main__":
     parser.add_argument("title", help="Title of the video")
     parser.add_argument("description", help="Description of the video")
     parser.add_argument("--category", default="22", help="Category ID (default: 22 - People & Blogs)")
-    parser.add_argument("--privacy", default="private", choices=["public", "private", "unlisted"], help="Privacy status")
+    parser.add_argument("--privacy", default="public", choices=["public", "private", "unlisted"], help="Privacy status")
 
     args = parser.parse_args()
 
